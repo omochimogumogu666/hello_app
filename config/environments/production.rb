@@ -92,6 +92,6 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   Rails.application.configure do
-    config.hosts "hello-app-0b5t.onrender.com"
+    config.hosts << "hello-app-0b5t.onrender.com"
   end
 end
